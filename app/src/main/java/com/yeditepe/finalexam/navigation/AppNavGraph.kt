@@ -1,6 +1,7 @@
 package com.yeditepe.finalexam.navigation
 
 import androidx.compose.runtime.Composable
+import androidx.navigation.NavController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
 
@@ -15,7 +16,7 @@ fun AppNavGraph() {
     ) {
 
         // TODO 1: Add composable for "tasks"
-
+    val navController = NavController
         // TODO 2: Add composable for "taskDetail/{title}"
     }
 }
