@@ -14,6 +14,8 @@ import com.yeditepe.finalexam.viewmodel.TaskViewModel
 fun TaskListScreen(viewModel: TaskViewModel = viewModel()) {
 
     // TODO 3: Read task list from ViewModel
+     val tasks = viewModel.tasks
+
 
     Column {
         // TODO 4: Display task titles and completion status
